@@ -1,4 +1,5 @@
-.FACEDOWNCARD {
+.FACEDOWNCARD 
+{
 
     width: 50%;
     
@@ -8,7 +9,7 @@
     
     border-radius: 4px;
     
-    box-shadow: 8px 9px 26px 0 rgba(2, 38, 238, 0.726);
+    box-shadow: 8px 9px 26px 0 rgb(228, 106, 6);
     
     display: grid;
     
@@ -22,9 +23,11 @@
     
     margin: 0 0 3em;
     
-    }
+}
     
-    .FACEDOWNCARD .FACECARD {
+    .FACEDOWNCARD 
+    .FACECARD 
+ {
     
     height: 8.7rem;
     
@@ -32,7 +35,7 @@
     
     margin: 0.2rem 0.2rem;
     
-    background: #02f0f8;;
+    background: #000000;;
     
     font-size:64px;
     
@@ -52,4 +55,4 @@
     
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
     
-    }
+ }
