@@ -1,3 +1,4 @@
+    
     var memoryArr = ['1','1','2','2','3','3','4','4','5','5','6','6','7','7','8','8'];    
     var memoryValues = [];
     var memoryCardIds = []; 
@@ -9,19 +10,20 @@
     
      var i = this.length, j, temp;
     
-        while(--i > 0){
+        while(--i > 0)
+        {
     
-        j = Math.floor(Math.random() * (i+1));
+            j = Math.floor(Math.random() * (i+1));
     
-        temp = this[j];
+            temp = this[j];
     
-        this[j] = this[i];
+            this[j] = this[i];
     
-     this[i] = temp;
+            this[i] = temp;
     
+        }
     }
-    
-}
+
     function flipCard(cardTile, val){debugger;
     
     if(cardTile.innerHTML == "" && memoryValues.length < 2)
@@ -117,16 +119,16 @@
         document.body.addEventListener('click', function ( event ) 
         {
     
-            if(event.srcElement.className == 'card' ) 
+            if(Event.srcElement.className == 'card' ) 
             
                 {
     
-                    var idElement = event.srcElement.id.split("_");
+                    var idElement = Event.srcElement.id.split("_");
     
-                    flipCard(event.srcElement, idElement[2]);
+                    flipCard(Event.srcElement, idElement[2]);
     
-    };
+                };
     
         });
     
-                });
+     });
