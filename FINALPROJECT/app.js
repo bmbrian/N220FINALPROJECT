@@ -6,7 +6,7 @@ var CardIds = [];
 
 var Card_flipped = 0;
 
-//prototype to shuffle the array values
+
 
 Array.prototype.Card_Random = function()
 {
